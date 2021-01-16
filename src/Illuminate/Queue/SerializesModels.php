@@ -54,5 +54,6 @@ trait SerializesModels
         $property->setAccessible(true);
 
         return $property->getValue($this);
+        aaa
     }
 }
